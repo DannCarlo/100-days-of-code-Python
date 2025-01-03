@@ -2,10 +2,10 @@ import os
 import requests
 import datetime as dt
 
-os.environ["NUTRITIONIX_AID"] = "e8d034ca"
-os.environ["NUTRITIONIX_APP_KEY"] = "175df32035ab2f3782012c8b5debc649"
+os.environ["NUTRITIONIX_AID"] = ""
+os.environ["NUTRITIONIX_APP_KEY"] = ""
 
-os.environ["SHEETY_AUTH"] = "Bearer sdklsdflsdlkfgkldfjlghjgflhkfghzzxcvcvxcv"
+os.environ["SHEETY_AUTH"] = ""
 
 NUTRITIONIX_AID = os.environ.get("NUTRITIONIX_AID")
 NUTRITIONIX_APP_KEY = os.environ.get("NUTRITIONIX_APP_KEY")

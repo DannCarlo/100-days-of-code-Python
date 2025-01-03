@@ -3,9 +3,9 @@ import os
 import requests
 
 
-os.environ["TWILIO_SID"] = "AC3d923a13721e99dc1d88209c45e3e500"
-os.environ["TWILIO_API_AUTH"] = "ab3f957aeae20cfa4a51aa2cd8150f04"
-os.environ["ALPHAVANTAGE_API_KEY"] = "P1066EOYLLKUM8YI"
+os.environ["TWILIO_SID"] = ""
+os.environ["TWILIO_API_AUTH"] = ""
+os.environ["ALPHAVANTAGE_API_KEY"] = ""
 
 TWILIO_SID = os.environ["TWILIO_SID"]
 TWILIO_AUTH = os.environ["TWILIO_API_AUTH"]
@@ -13,7 +13,7 @@ TWILIO_PHONE = "+12184338663"
 
 ALPHAVANTAGE_API_KEY = os.environ["ALPHAVANTAGE_API_KEY"]
 
-RECEIVER_PHONE = "+639457850386"
+RECEIVER_PHONE = ""
 
 STOCK_SYMBOL = "TSLA"
 COMPANY_NAME = "Tesla Inc"
